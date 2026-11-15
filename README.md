@@ -63,9 +63,9 @@ Then run the notebooks in `notebooks/` in order.
 
 ## Limitations
 
-- Four tournaments give about 700 usable goal times. That is enough to reject a constant rate, not enough to choose between a smooth rise and a half-time step.
+- Four tournaments give about 700 usable goal times. That is enough to reject a constant rate, but not enough to choose between a smooth rise and a half-time step.
 - Teams are not modelled. Each match has its own overall rate, but the two sides are pooled, so effects that depend on which team scored are invisible here.
-- Excluding stoppage time loses about one regulation goal in eight, mostly late in matches.
+- Excluding stoppage time loses about one regulation goal in eight.
 
 ## Reference
 
